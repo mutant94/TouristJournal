@@ -13,6 +13,7 @@ import android.widget.TextView;
 
 import com.example.lukaszt.touristjournal.R;
 import com.example.lukaszt.touristjournal.activity.MenuPlaceActivity;
+import com.example.lukaszt.touristjournal.activity.PlaceInfoActivity;
 import com.example.lukaszt.touristjournal.objects.TouristCity;
 import com.example.lukaszt.touristjournal.objects.TouristPlace;
 
@@ -25,11 +26,13 @@ import java.util.List;
 public class AdapterRVPlace extends RecyclerView.Adapter<AdapterRVPlace.ViewHolderPlace> {
 
     private List<TouristPlace> touristPlaceList;
+    private List<Float> distanceList;
     private Activity activity;
 
-    public AdapterRVPlace(List<TouristPlace> touristPlaceList, Activity activity) {
-        this.touristPlaceList = touristPlaceList;
+    public AdapterRVPlace(List<TouristPlace> touristPlaces, List<Float> distanceList, Activity activity) {
         this.activity = activity;
+        this.touristPlaceList = touristPlaces;
+        this.distanceList = distanceList;
     }
 
     public static class ViewHolderPlace extends RecyclerView.ViewHolder {
@@ -37,8 +40,9 @@ public class AdapterRVPlace extends RecyclerView.Adapter<AdapterRVPlace.ViewHold
         protected Activity activity;
         protected TouristPlace place;
         protected TextView name;
-        protected TextView desription;
+        protected TextView description;
         protected ImageView imageView;
+        protected TextView distanceTV;
 
         protected ViewHolderPlace(View view) {
             super(view);
@@ -48,21 +52,22 @@ public class AdapterRVPlace extends RecyclerView.Adapter<AdapterRVPlace.ViewHold
                     AdapterRVPlace.ViewHolderPlace.this.onClick();
                 }
             });
-            this.name = (TextView) view.findViewById(R.id.cardview_city_title);
-            this.desription = (TextView) view.findViewById(R.id.cardview_city_description);
-            this.imageView = (ImageView) view.findViewById(R.id.cardview_city_image);
+            this.name = (TextView) view.findViewById(R.id.cardview_place_title);
+            this.description = (TextView) view.findViewById(R.id.cardview_place_description);
+            this.imageView = (ImageView) view.findViewById(R.id.cardview_place_image);
+            this.distanceTV = (TextView) view.findViewById(R.id.cardview_place_distance);
         }
 
         public void onClick() {
-            Intent intent = new Intent(activity, MenuPlaceActivity.class);
-            intent.putExtra(MenuPlaceActivity.CITY_INTENT_KEY, place.name());
+            Intent intent = new Intent(activity, PlaceInfoActivity.class);
+            intent.putExtra(PlaceInfoActivity.PLACE_INTENT_KEY, place.name());
             activity.startActivity(intent);
         }
     }
 
     @Override
     public AdapterRVPlace.ViewHolderPlace onCreateViewHolder(ViewGroup parent, int viewType) {
-        View itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.cardview_city, parent, false);
+        View itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.cardview_place, parent, false);
         return new AdapterRVPlace.ViewHolderPlace(itemView);
     }
 
@@ -70,8 +75,19 @@ public class AdapterRVPlace extends RecyclerView.Adapter<AdapterRVPlace.ViewHold
     public void onBindViewHolder(AdapterRVPlace.ViewHolderPlace holder, int position) {
         TouristPlace place = touristPlaceList.get(position);
         holder.name.setText(activity.getResources().getString(place.nameId));
-        holder.desription.setText(activity.getResources().getString(place.shortDescriptionId));
+        holder.description.setText(activity.getResources().getString(place.shortDescriptionId));
         holder.imageView.setImageBitmap(Bitmap.createBitmap(BitmapFactory.decodeResource(activity.getResources(), place.imageResource)));
+        if(distanceList.get(position) == -1){
+            holder.distanceTV.setText("NOPE");
+        }else{
+            if(distanceList.get(position) > 3){
+                holder.distanceTV.setText(((Float)(distanceList.get(position)/1000)).toString() + " km");
+            }else{
+                holder.distanceTV.setText((distanceList.get(position)).toString() + " m");
+            }
+
+        }
+
         holder.activity = this.activity;
         holder.place = place;
     }

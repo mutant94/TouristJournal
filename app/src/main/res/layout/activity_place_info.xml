@@ -10,4 +10,35 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.lukaszt.touristjournal.activity.PlaceInfoActivity">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:id="@+id/place_info_image"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/branicki_palace"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:id="@+id/place_info_text"
+                android:textColor="#FF9060"
+                android:text="testtestetstetstestest etssteseafeafd"/>
+        </LinearLayout>
+    </ScrollView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:id="@+id/place_info_title"
+        android:textColor="#7FFF9060"
+        android:background="#7FF0FFFF"
+        android:text="test"/>
 </RelativeLayout>

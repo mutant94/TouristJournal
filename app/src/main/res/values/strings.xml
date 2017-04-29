@@ -1,13 +1,32 @@
 <resources>
     <string name="app_name">"TouristJournal "</string>
     <string name="title_activity_maps">Map</string>
+
+    <string name="weather">Weather</string>
+
     <string name="Bialystok_name">Bialystok</string>
-    <string name="Bialystok_desrciption">Polish city. In this place was join three culture: Polish, Russian and Lithuanian</string>
+    <string name="Bialystok_desrciption">Polish city. In this place were unite three culture: Polish, Russian and Lithuanian</string>
     <string name="Warsaw_name">Warsaw</string>
     <string name="Warsaw_desrciption">Polish capacity.</string>
 
     <!--Bialystok place-->
-
+    <!--
+    <string name="Bialystok_name_"></string>
+    <string name="Bialystok__short_description_"></string>
+    <string name="Bialystok__long_description_"></string>
+    -->
+    <string name="Bialystok_name_branicki_palace">Branicki Palace</string>
+    <string name="Bialystok_short_description_branicki_palace">Central Palace in Bialystok</string>
+    <string name="Bialystok_long_description_branicki_palace">Central Palace in Bialystok. Central Palace in Bialystok</string>
     <!--Warsaw place-->
+    <!--Bialystok place-->
+    <!--
+    <string name="Warsaw_name_"></string>
+    <string name="Warsaw__short_description_"></string>
+    <string name="Warsaw__long_description_"></string>
+    -->
 
+    <string name="Warsaw_name_royal_castle">Royal Castle</string>
+    <string name="Warsaw__short_description_royal_castle">Main polish castle</string>
+    <string name="Warsaw__long_description_royal_castle">Main polish castle. Main polish castle. Main polish castle</string>
 </resources>

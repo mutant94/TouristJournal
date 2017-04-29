@@ -10,4 +10,48 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.lukaszt.touristjournal.activity.MenuPlaceActivity">
 
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view_place"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#7FF0FFFF"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/menu_place_compass"
+            android:src="@drawable/compass_icon"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="@string/weather"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:id="@+id/menu_place_weather_info"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
 </RelativeLayout>
