@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">\"TouristJournal \"</string>
+    <string name="Atmosphere">Zagrożenie atmosferyczne</string>
+    <string name="Bialystok_desrciption">Białystok opis</string>
+    <string name="Bialystok_long_description_branicki_palace">Białystok opis pałacu długi</string>
+    <string name="Bialystok_name">Białystok</string>
+    <string name="Bialystok_name_branicki_palace">Pałac Branickich</string>
+    <string name="Bialystok_short_description_branicki_palace">Główny pałac w Białymstoku</string>
+    <string name="Clear">Czysto</string>
+    <string name="Clouds">Pochmurnie</string>
+    <string name="Extreme">Zagrożenie pogodowe</string>
+    <string name="Drizzle">Mżawka</string>
+    <string name="Rain">Deszcz</string>
+    <string name="Snow">Śnieg</string>
+    <string name="Temperature">Temperatura</string>
+    <string name="Thunderstorm">Burza</string>
+    <string name="Warsaw__long_description_royal_castle">Główny polski zamek mieszczący się w stolicy</string>
+    <string name="Warsaw__short_description_royal_castle">Główny polski zamek</string>
+    <string name="Warsaw_desrciption">Polska stolica</string>
+    <string name="Warsaw_name">Warszawa</string>
+    <string name="Warsaw_name_royal_castle">Zamek Królewski</string>
+    <string name="Weather">Pogoda</string>
+    <string name="title_activity_maps">Mapa</string>
+</resources>
