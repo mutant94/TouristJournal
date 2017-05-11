@@ -2,7 +2,16 @@
     <string name="app_name">"TouristJournal "</string>
     <string name="title_activity_maps">Map</string>
 
-    <string name="weather">Weather</string>
+    <string name="Weather">Weather</string>
+    <string name="Temperature">Temperature</string>
+    <string name="Thunderstorm">Thunderstorm</string>
+    <string name="Drizzle">Drizzle</string>
+    <string name="Rain">Rain</string>
+    <string name="Snow">Snow</string>
+    <string name="Atmosphere">Atmosphere</string>
+    <string name="Clear">Clear</string>
+    <string name="Clouds">Clouds</string>
+    <string name="Extreme">Extreme</string>
 
     <string name="Bialystok_name">Bialystok</string>
     <string name="Bialystok_desrciption">Polish city. In this place were unite three culture: Polish, Russian and Lithuanian</string>

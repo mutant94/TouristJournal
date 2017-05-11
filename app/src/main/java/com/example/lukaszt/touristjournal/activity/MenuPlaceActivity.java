@@ -26,6 +26,7 @@ import com.example.lukaszt.touristjournal.objects.TouristPlace;
 import com.example.lukaszt.touristjournal.objects.adapters.AdapterRVPlace;
 import com.example.lukaszt.touristjournal.services.Compass;
 import com.example.lukaszt.touristjournal.services.GPSLocation;
+import com.example.lukaszt.touristjournal.services.Weather;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.location.LocationServices;
@@ -60,6 +61,11 @@ public class MenuPlaceActivity extends AppCompatActivity implements
         }
         addRecycleView();
         compass = new Compass(this);
+        Weather weather = new Weather(this);
+        Intent intent = getIntent();
+        String enumName = intent.getStringExtra(CITY_INTENT_KEY);
+        TouristCity city = TouristCity.valueOf(enumName);
+        weather.execute(weather.getURL(city.latitude, city.longitude));
     }
 
     @Override
