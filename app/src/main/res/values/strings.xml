@@ -3,7 +3,7 @@
     <string name="title_activity_maps">Map</string>
 
     <string name="Weather">Weather</string>
-    <string name="Temperature">Temperature</string>
+    <string name="Temperature">Temp</string>
     <string name="Thunderstorm">Thunderstorm</string>
     <string name="Drizzle">Drizzle</string>
     <string name="Rain">Rain</string>
@@ -27,6 +27,15 @@
     <string name="Bialystok_name_branicki_palace">Branicki Palace</string>
     <string name="Bialystok_short_description_branicki_palace">Central Palace in Bialystok</string>
     <string name="Bialystok_long_description_branicki_palace">Central Palace in Bialystok. Central Palace in Bialystok</string>
+    <string name="Bialystok_name_hasbach_palace">Hasbach Palace</string>
+    <string name="Bialystok__short_description_hasbach_palace">A residence built in the style of French, Dutch and Tuscan neo-Renaissance.</string>
+    <string name="Bialystok__long_description_hasbach_palace">A residence built in the 1880s by Ewald Hasbach in the style of French, Dutch and Tuscan neo-Renaissance. The palace was surrounded by a small garden and landscape park. Growing income mobilized by Artur Hasbach (son of Ewald and Maria Körner) reconstruction of the mansion (1905-1907). Maintenance in eclectic style. Added two single towers with towers and an additional floor covered with a sloping roof with sloping roof. Then the most important part and fireplaces are preserved. Nearly the palace became a factory, burned by the Germans in 1944 (Will remain intact, as it deserves Erwin).</string>
+    <string name="Bialystok_name_lubomisrki_palace">Lubomirski Palace</string>
+    <string name="Bialystok__long_description_lubomisrki_palace">The Krusenstern Palace, later the Rüdiger and the Lubomirskis - a palace built by Baron Alexander Krusenstern in the mid-nineteenth century in neoclassical style. During World War II Białystok\'s seat was the Prussian Erich Koch. Burned in 1944, rebuilt in 1956-1957. The palace is located in the Dojlidy district and is surrounded by a 19th-century park. Currently, the School of Public Administration is located here.</string>
+    <string name="Bialystok_name_cathedral">Białystok Cathedral</string>
+    <string name="Bialystok__short_description_cathedral">Roman Catholic cathedral in the city of Bialystok</string>
+    <string name="Bialystok__long_description_cathedral">The Cathedral Basilica of the Assumption of the Blessed Virgin Mary (Polish: Bazylika archikatedralna Wniebowzięcia Najświętszej Maryi Panny w Białymstoku ) also called Białystok Cathedral is a Roman Catholic cathedral in the city of Bialystok in Poland. The three-nave church is 90 meters long and can accommodate 9,500 worshipers. The two towers reach 72.5 meters high. It is the main church of the Archdiocese of Bialystok and acquired the status of basílica in 1985 by decision of Pope John Paul II.</string>
+
     <!--Warsaw place-->
     <!--Bialystok place-->
     <!--
@@ -38,4 +47,5 @@
     <string name="Warsaw_name_royal_castle">Royal Castle</string>
     <string name="Warsaw__short_description_royal_castle">Main polish castle</string>
     <string name="Warsaw__long_description_royal_castle">Main polish castle. Main polish castle. Main polish castle</string>
+    <string name="Bialystok__short_description_lubomisrki_palace">Palace built by Baron Alexander Krusenstern in the mid-nineteenth century in neoclassical style.</string>
 </resources>

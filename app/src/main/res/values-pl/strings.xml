@@ -13,7 +13,7 @@
     <string name="Drizzle">Mżawka</string>
     <string name="Rain">Deszcz</string>
     <string name="Snow">Śnieg</string>
-    <string name="Temperature">Temperatura</string>
+    <string name="Temperature">Temp.</string>
     <string name="Thunderstorm">Burza</string>
     <string name="Warsaw__long_description_royal_castle">Główny polski zamek mieszczący się w stolicy</string>
     <string name="Warsaw__short_description_royal_castle">Główny polski zamek</string>
@@ -22,4 +22,13 @@
     <string name="Warsaw_name_royal_castle">Zamek Królewski</string>
     <string name="Weather">Pogoda</string>
     <string name="title_activity_maps">Mapa</string>
+    <string name="Bialystok__long_description_hasbach_palace">Rezydencja zbudowana została w latach 80. XIX w. przez Ewalda Hasbacha w stylu neorenesansu francuskiego, niderlandzkiego i toskańskiego. Pałac otaczał niewielki ogród i park krajobrazowy. Wzrastające dochody zmobilizowały Artura Hasbacha (syn Ewalda i Marii Körner) do przebudowy rezydencji (1905-1907r). Wnętrze utrzymano w styl eklektycznym. Dobudowane zostały dwa ryzality z wieżami oraz dodatkowe piętro przykryte mansardowym dachem z lukarnami. Wewnątrz zachowały się oryginalne piece i kominki. Nieopodal pałacyku znajdowały się zabudowania fabryki, w większości spalone przez Niemców w 1944 r. (willa pozostała nietknięta, w czym zasługę przypisuje się Erwinowi).</string>
+    <string name="Bialystok__short_description_hasbach_palace">Rezydencja zbudowana w stylu neorenesansu francuskiego, niderlandzkiego i toskańskiego.</string>
+    <string name="Bialystok_name_hasbach_palace">Pałac Hasbacha</string>
+    <string name="Bialystok__short_description_cathedral">Zespół świątynny w Białymstoku</string>
+    <string name="Bialystok__long_description_cathedral">Zespół Bazyliki Archikatedralnej Wniebowzięcia Najświętszej Maryi Panny w Białymstoku to zespół świątynny w Białymstoku, złożony z dwóch połączonych ze sobą budynków kościelnych: starego (z początku XVII wieku) oraz nowego (z początku XX wieku). Bazylika stanowi główną świątynię archidiecezji białostockiej oraz parafii Wniebowzięcia Najświętszej Maryi Panny w Białymstoku.</string>
+    <string name="Bialystok_name_cathedral">Katedra Białostocka</string>
+    <string name="Bialystok__short_description_lubomisrki_palace">Pałac zbudowany przez barona Aleksandra Krusensterna w połowie XIX w. w stylu neoklasycystycznym.</string>
+    <string name="Bialystok_name_lubomisrki_palace">Pałac Lubomirskich</string>
+    <string name="Bialystok__long_description_lubomisrki_palace">Pałac Krusensternów, później Rüdigerów i Lubomirskich – pałac zbudowany przez barona Aleksandra Krusensterna w połowie XIX w. w stylu neoklasycystycznym. W czasie II wojny światowej białostocka siedziba gauleitera Prus Ericha Kocha. Spalony w 1944 r., odbudowany w latach 1956-1957. Pałac znajduje się w dzielnicy Dojlidy, otoczony jest XIX-wiecznym parkiem. Obecnie mieści się tu Wyższa Szkoła Administracji Publicznej.</string>
 </resources>
